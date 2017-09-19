@@ -10,7 +10,10 @@ function validateForm() {
   alert("test");
 }
 
-
+function setUpPage() {
+  // setUpPage();
+  createEventListeners();
+}
 function createEventListeners() {
   var form = document.getElementById("form");
   if (form.addEventListener) {
